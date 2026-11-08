@@ -1,0 +1,54 @@
+
+.calculator {
+    -fx-background-color: #000000;
+    -fx-font-family: "Arial";
+}
+
+.display {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 58px;
+    -fx-font-weight: 300;
+    -fx-alignment: bottom-right;
+}
+
+.key {
+    -fx-background-radius: 999;
+    -fx-border-radius: 999;
+    -fx-font-size: 28px;
+    -fx-font-weight: normal;
+    -fx-cursor: hand;
+    -fx-padding: 0;
+}
+
+.digit-key {
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffffff;
+}
+
+.function-key {
+    -fx-background-color: #a5a5a5;
+    -fx-text-fill: #000000;
+}
+
+.operator-key {
+    -fx-background-color: #ff9f0a;
+    -fx-text-fill: #ffffff;
+}
+
+.operator-key.selected {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #ff9f0a;
+}
+
+.key:hover {
+    -fx-opacity: 0.88;
+}
+
+.key:pressed {
+    -fx-opacity: 0.68;
+}
+
+.zero-key {
+    -fx-alignment: center;
+    -fx-padding: 0 0 0 28;
+}
